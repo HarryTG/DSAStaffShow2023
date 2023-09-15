@@ -1,6 +1,7 @@
 @import url(https://db.onlinewebfonts.com/c/736cf5b08b01082a3645e14038868e20?family=Krungthep);
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
+@import url(https://db.onlinewebfonts.com/c/4aa3e37e571255737e5e6d4e9d9770a5?family=Rockwell);
 
 /*
 	Dimension by HTML5 UP
@@ -172,7 +173,7 @@ input, select, textarea {
 	}
 
 	p {
-		margin: 0 0 2rem 0;
+		margin: 0 0 1rem 0;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -212,6 +213,11 @@ input, select, textarea {
 			font-weight: normal;
     		font-style: italic;
 		}
+	span.smalltitle {
+		font-style: normal;
+		font-size: 80%;
+	}
+
 	article p {
 		color: #111;
 	}
@@ -227,13 +233,14 @@ input, select, textarea {
 	.year, .medium {
 		text-align: right;
 		margin-top: 0;
+		margin-left: 2.5rem;
 	}
 	.year {
 		margin-top: -1.2rem;
 		margin-bottom: 0;
 	}
 	.medium {
-		margin-bottom: 3rem;
+		margin-bottom: 2rem;
 	}
 	.artist {
 
@@ -303,9 +310,9 @@ input, select, textarea {
 
 /*		border-left: solid 4px #222;*/
 		font-style: italic;
-		margin: 0 0 2rem 0;
-		padding: 0.5rem 0 0.5rem 2rem;
-	}
+    margin: 0 0 1rem 0;
+    padding: 0rem 0 0rem 2rem;
+   	}
 
 	code {
 		background: rgba(255, 255, 255, 0.075);
