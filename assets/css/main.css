@@ -1,3 +1,4 @@
+@import url(https://db.onlinewebfonts.com/c/736cf5b08b01082a3645e14038868e20?family=Krungthep);
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
 
@@ -298,6 +299,8 @@ input, select, textarea {
 	}
 
 	blockquote {
+		color: #222;
+
 /*		border-left: solid 4px #222;*/
 		font-style: italic;
 		margin: 0 0 2rem 0;
