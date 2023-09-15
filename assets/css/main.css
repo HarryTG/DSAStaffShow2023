@@ -120,7 +120,7 @@ input, select, textarea {
 		@media screen and (max-width: 1680px) {
 
 			html {
-				font-size: 12pt;
+				font-size: 13pt;
 			}
 
 		}
@@ -128,7 +128,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			html {
-				font-size: 11pt;
+				font-size: 12.5pt;
 			}
 
 		}
@@ -136,7 +136,7 @@ input, select, textarea {
 		@media screen and (max-width: 360px) {
 
 			html {
-				font-size: 10pt;
+				font-size: 12pt;
 			}
 
 		}
@@ -146,7 +146,7 @@ input, select, textarea {
 		font-family: "Source Sans Pro", sans-serif;
 		font-weight: 300;
 		font-size: 1rem;
-		line-height: 1.65;
+		line-height: 1.6;
 	}
 
 	a {
@@ -177,6 +177,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
+		font-family: 'Rockwell';
 		color: #fefefe;
 		font-weight: 600;
 		line-height: 1.5;
@@ -287,7 +288,7 @@ input, select, textarea {
 		}
 
 		h2 {
-			font-size: 1.25em;
+			font-size: 1.4em;
 			line-height: 1.5;
 		}
 
@@ -1429,7 +1430,7 @@ input, select, textarea {
 					padding: 0 1.25rem 0 1.45rem;
 					text-transform: uppercase;
 					letter-spacing: 0.2rem;
-					font-size: 0.8rem;
+/*					font-size: 0.8rem;*/
 					border-bottom: 0;
 				}
 
